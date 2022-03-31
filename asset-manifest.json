@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/React-hello-world/static/css/main.31d6cfe0.css",
-    "main.js": "/React-hello-world/static/js/main.2e404c46.js",
+    "main.css": "/React-hello-world/static/css/main.ca8bc9f9.css",
+    "main.js": "/React-hello-world/static/js/main.10361ade.js",
     "index.html": "/React-hello-world/index.html",
-    "main.2e404c46.js.map": "/React-hello-world/static/js/main.2e404c46.js.map"
+    "main.ca8bc9f9.css.map": "/React-hello-world/static/css/main.ca8bc9f9.css.map",
+    "main.10361ade.js.map": "/React-hello-world/static/js/main.10361ade.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.2e404c46.js"
+    "static/css/main.ca8bc9f9.css",
+    "static/js/main.10361ade.js"
   ]
 }
