@@ -1,12 +1,10 @@
 import React from "react";
-import ReactDOMClient from "react-dom/client";
-import App from "./js/App";
+import ReactDOM from "react-dom";
+import App from "./pages/App";
+import Chart from "./components/Chart";
 
-const container = document.querySelector("#root");
-const root = ReactDOMClient.createRoot(container);
 
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ReactDOM.render(
+  <Chart />,
+  document.querySelector("#root")
 );
