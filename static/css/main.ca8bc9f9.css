@@ -1,2 +1,0 @@
-h1{-webkit-animation:shake 4s linear infinite;animation:shake 4s linear infinite}button{position:absolute;top:50px}@-webkit-keyframes shake{0%{margin-top:0}50%{margin-top:500px}to{margin-top:0}}@keyframes shake{0%{margin-top:0}50%{margin-top:500px}to{margin-top:0}}
-/*# sourceMappingURL=main.ca8bc9f9.css.map*/
