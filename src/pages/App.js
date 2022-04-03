@@ -1,17 +1,17 @@
 import "../scss/App.scss";
 import Counter from "../components/Counter";
-import { Line } from 'react-chartjs-2';
+import Chart from "../components/Chart";
 
-// Tn6-PIqc4UM
+import {Route, Routes, BrowserRouter} from "react-router-dom";
 
 function App(obj) {
   return (
-    <>
-    <div className="App">
-      <Counter />
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/y6120QOlsfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="React-hello-world/" element={<Counter />} />
+        <Route path="React-hello-world/chart" element={<Chart />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

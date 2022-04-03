@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./pages/App";
-import Chart from "./components/Chart";
+
+// import {HashRouter} from "react-router-dom";
 
 
 ReactDOM.render(
-  <Chart />,
+  <App />,
   document.querySelector("#root")
 );
